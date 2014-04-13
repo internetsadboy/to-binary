@@ -1,0 +1,26 @@
+{
+  "name": "to-binary",
+  "version": "0.0.0",
+  "description": "converts decimal to binary recursively",
+  "main": "toBinary.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghostsnstuff/to-binary.git"
+  },
+  "keywords": [
+    "convert",
+    "decimal",
+    "binary",
+    "toBinary",
+    "recursion"
+  ],
+  "author": "jared <jaredhalpert90@gmail.com> (http://jaredhalpert.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghostsnstuff/to-binary/issues"
+  },
+  "homepage": "https://github.com/ghostsnstuff/to-binary"
+}

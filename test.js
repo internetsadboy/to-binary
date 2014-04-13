@@ -1,6 +1,10 @@
 var toBinary = require('./toBinary')
-console.log(toBinary(98)) // => 01100010
+var test = require('tape')
 
-var ch = 'k'
-var ascii = ch.charCodeAt(0) 
-console.log(toBinary(ascii)) // => 01101011
+test('toBinary tests', function(t) {
+	t.plan(2)
+	t.deepEqual(toBinary(98), '01100010')
+	var ch = 'k'
+	var ascii = ch.charCodeAt(0) 
+	t.deepEqual(toBinary(ascii), '01101011')
+})

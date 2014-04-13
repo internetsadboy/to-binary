@@ -1,6 +1,6 @@
 {
   "name": "to-binary",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "converts decimal to binary recursively",
   "main": "toBinary.js",
   "scripts": {
@@ -17,6 +17,9 @@
     "toBinary",
     "recursion"
   ],
+  "dependencies":{
+    "tape":"*"
+  },
   "author": "jared <jaredhalpert90@gmail.com> (http://jaredhalpert.com/)",
   "license": "MIT",
   "bugs": {

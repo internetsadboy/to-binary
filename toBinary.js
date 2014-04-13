@@ -3,11 +3,11 @@ function toBinary(n) {
 }
 
 function convertToBinary(n) {
-	if(n <= 1) {
-		return String(n)
-	} else {
-		return convertToBinary(Math.floor(n/2)) + String(n%2)
-	}
+  if(n <= 1) {
+    return String(n)
+  } else {
+    return convertToBinary(Math.floor(n/2)) + String(n%2)
+  }
 }
 
 function zeroFill(value) {
